@@ -12,8 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 <body class="text-center">
   <form class="form-signin" action="<?php echo base_url() ?>index.php/autentikasi/register" method="post" >
-    <img class="mb-4" src="<?php echo base_url() ?>assets/images/logo/its.png" alt="" width="72" height="72">
-    <h1 class="h3 mb-3 font-weight-normal">PAPCUAP</h1>
+    <img class="mb-4" src="<?php echo base_url() ?>assets/images/logo/papsi.gif" alt="" width="250">
     <h3 class="h3 mb-3 font-weight-normal">Dafar Anggota Baru</h3>
     
     <label for="nama_anggota" class="sr-only">User ID</label>
@@ -47,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <p>
       Sudah punya akun, silahkan masuk <a href="<?php echo base_url() ?>">di sini</a>
     </p>
-    <p class="mt-5 mb-3 text-muted">&copy; 2018-2019</p>
+    <p class="mt-5 mb-3 text-muted">papcuap. &copy; 2018-2019</p>
   </form>
 </body>
 
